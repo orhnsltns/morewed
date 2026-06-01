@@ -1,0 +1,6 @@
+{
+  "name": "morewed",
+  "description": "Bursa, Türkiye ve tüm dünyada ruh katan, pozsuz ve doğal belgesel düğün fotoğrafçılığı.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
