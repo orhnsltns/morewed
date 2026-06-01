@@ -7,6 +7,10 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, MapPin, Calendar, Camera, Layers } from 'lucide-react';
 import { WeddingStory } from '../types';
+import heroImg from '../assets/images/hero_wedding_png_1780320867659.png';
+import villageImg from '../assets/images/village_wedding_png_1780320899199.png';
+import intimateImg from '../assets/images/intimate_wedding_png_1780320921754.png';
+import manorImg from '../assets/images/manor_wedding_png_1780320943364.png';
 
 // Hardcoded paths matching exact generated image files with timestamps
 const stories: WeddingStory[] = [
@@ -18,11 +22,11 @@ const stories: WeddingStory[] = [
     date: 'Eylül 2025',
     description: 'Sıcak bir eylül akşamında, zeytinliklerin gölgesinde fısıldaşan sakin gülüşler...',
     longDescription: 'Doğanın sadeliğini her şeyin önünde tutan çiftimizle, Bursa\'nın kadim zeytin ağaçları arasında, sadece batmakta olan güneşin altın rengi ışıklarını takip ettiğimiz bir hikaye. Poz verme kaygısı taşımadan, kendilerini tamamen doğanın ve birbirlerinin kollarına bıraktılar. Analog tınılar ve doğal gölgelerle süslenmiş bir albüm.',
-    coverImage: '/src/assets/images/hero_wedding_png_1780320867659.png',
+    coverImage: heroImg,
     galleryImages: [
-      '/src/assets/images/hero_wedding_png_1780320867659.png',
-      '/src/assets/images/village_wedding_png_1780320899199.png',
-      '/src/assets/images/intimate_wedding_png_1780320921754.png'
+      heroImg,
+      villageImg,
+      intimateImg
     ],
     tags: ['Açık Hava', 'Belgesel', 'Bursa']
   },
@@ -34,11 +38,11 @@ const stories: WeddingStory[] = [
     date: 'Temmuz 2025',
     description: 'Yüzlerce yıllık tarihi ahşap evlerin arasında, dertlerden uzak, neşe dolu bir gün...',
     longDescription: 'Bursa\'nın meşhur tarihi köyü Cumalıkızık\'ın her köşesinden yaşanmışlık fışkıran sokaklarında çekilen bir Fine-Art hikayesi. Taş duvarlar, ahşap panjurlar ve killi toprak pencerelerin önünde, çiftimizin tamamen içlerinden geldiği gibi, sadece birbirlerini hissederek kıkırdadıkları, baş başa kaldıkları özel dakikaları.',
-    coverImage: '/src/assets/images/village_wedding_png_1780320899199.png',
+    coverImage: villageImg,
     galleryImages: [
-      '/src/assets/images/village_wedding_png_1780320899199.png',
-      '/src/assets/images/hero_wedding_png_1780320867659.png',
-      '/src/assets/images/manor_wedding_png_1780320943364.png'
+      villageImg,
+      heroImg,
+      manorImg
     ],
     tags: ['Açık Hava', 'Editoryal', 'Bursa']
   },
@@ -50,11 +54,11 @@ const stories: WeddingStory[] = [
     date: 'Ağustos 2025',
     description: 'Meyve bahçesinin ortasında, minik ışıklar altında dökülen en samimi göz yaşları ve neşeli kahkahalar...',
     longDescription: 'Kalabalıktan uzak, sadece en yakın dostların katıldığı samimi bir akşam yemeği. Bahçede asılı sarı ampullerin ve alacakaranlığın eşsiz lacivert renklerinde, birbirlerine bakarak gülen, ağlayan ve anı kutlayan saf bir sevgi hikayesi. Karşılıklı göz temaslarındaki derinliğin ve pürüzsüz duyguların yansıması.',
-    coverImage: '/src/assets/images/intimate_wedding_png_1780320921754.png',
+    coverImage: intimateImg,
     galleryImages: [
-      '/src/assets/images/intimate_wedding_png_1780320921754.png',
-      '/src/assets/images/hero_wedding_png_1780320867659.png',
-      '/src/assets/images/village_wedding_png_1780320899199.png'
+      intimateImg,
+      heroImg,
+      villageImg
     ],
     tags: ['Mikro Düğün', 'Belgesel']
   },
@@ -66,11 +70,11 @@ const stories: WeddingStory[] = [
     date: 'Ekim 2025',
     description: 'Yüksek pencerelerden sızan loş yan ışıklarda hayat bulan zamansız bir aşk portresi...',
     longDescription: 'Bir film karesini andıran, yüksek kemer pencerelerden sızan dramatik yan ışıkları kullandığımız, çiftimizin adeta zamansız birer tablo gibi durduğu asil, editoryal portre serisi. Gelinliğin sade ipek dökümü, damatlığın zengin kadife dokusu ve tarihi mekanın yaşanmış asil ruhu kusursuz bir kompozisyonda buluştu.',
-    coverImage: '/src/assets/images/manor_wedding_png_1780320943364.png',
+    coverImage: manorImg,
     galleryImages: [
-      '/src/assets/images/manor_wedding_png_1780320943364.png',
-      '/src/assets/images/village_wedding_png_1780320899199.png',
-      '/src/assets/images/intimate_wedding_png_1780320921754.png'
+      manorImg,
+      villageImg,
+      intimateImg
     ],
     tags: ['Editoryal', 'Mikro Düğün']
   }

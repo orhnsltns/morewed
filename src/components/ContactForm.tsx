@@ -124,10 +124,18 @@ export default function ContactForm() {
                   <MapPin className="w-5 h-5 stroke-[1.5]" />
                 </span>
                 <div>
-                  <h4 className="text-[10px] tracking-widest text-neutral-400 uppercase font-semibold">Merkez Üs & Koordinat</h4>
+                  <h4 className="text-[10px] tracking-widest text-neutral-400 uppercase font-semibold">Ofis & Koordinat</h4>
                   <p className="text-sm font-light text-neutral-750 leading-relaxed mt-1">
                     Bursa, Türkiye ve Tüm Dünya
                   </p>
+                  <a
+                    href="https://share.google/0RDbmJPW4NxmaMi2t"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs font-semibold text-accent-500 hover:text-accent-600 transition-colors inline-flex items-center gap-1 mt-1.5 underline underline-offset-4"
+                  >
+                    Haritada Gör & Yol Tarifi Al →
+                  </a>
                 </div>
               </div>
 

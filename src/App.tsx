@@ -13,10 +13,9 @@ import Packages from './components/Packages';
 import KindWords from './components/KindWords';
 import ContactForm from './components/ContactForm';
 import Logo from './components/Logo';
+import heroImage from './assets/images/hero_wedding_png_1780320867659.png';
 
 export default function App() {
-  // Hero image path generated specifically for the website
-  const heroImage = '/src/assets/images/hero_wedding_png_1780320867659.png';
 
   return (
     <div className="min-h-screen bg-bg selection:bg-accent-500/20 selection:text-ink border-b border-accent-100/30 flex flex-col justify-between" id="morewed-app-root">
