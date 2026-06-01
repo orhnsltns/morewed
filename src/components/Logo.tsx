@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React from 'react';
+import React, { useState } from 'react';
 
 interface LogoProps {
   className?: string;
@@ -12,17 +12,35 @@ interface LogoProps {
 }
 
 export default function Logo({ className = '', size = 'md', dark = false }: LogoProps) {
+  const [imgFailed, setImgFailed] = useState(false);
+
   const sizeClasses = {
-    sm: 'h-10 text-xl',
-    md: 'h-16 text-3xl md:text-4xl',
-    lg: 'h-24 text-5xl md:text-6xl',
-    xl: 'h-36 text-7xl md:text-8xl',
+    sm: 'h-9 md:h-10',
+    md: 'h-14 md:h-16',
+    lg: 'h-24 md:h-28',
+    xl: 'h-32 md:h-36',
   };
 
   // Sage and burgundy matching tones
   const sageColor = dark ? '#A8C396' : '#8EA676';
   const burgundyColor = dark ? '#9A2E3B' : '#72121C';
 
+  // If image loading has not failed, try loading `/logo.png` directly
+  if (!imgFailed) {
+    return (
+      <div className={`relative flex items-center justify-center ${className}`} id="morewed-brand-logo">
+        <img
+          src="/logo.png"
+          alt="Morewed Logo"
+          referrerPolicy="no-referrer"
+          className={`w-auto object-contain ${sizeClasses[size]}`}
+          onError={() => setImgFailed(true)}
+        />
+      </div>
+    );
+  }
+
+  // Fallback SVG representation
   return (
     <div className={`relative select-none flex items-center justify-center ${className}`} id="morewed-brand-logo">
       <svg
