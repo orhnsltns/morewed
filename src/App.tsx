@@ -70,9 +70,9 @@ export default function App() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="text-xs sm:text-sm md:text-base tracking-[0.25em] font-light max-w-xl text-neutral-200 uppercase leading-relaxed mb-10"
+            className="text-xs sm:text-sm md:text-base tracking-[0.18em] font-light max-w-xl text-neutral-200 uppercase leading-relaxed mb-10"
           >
-            Bursa, Türkiye ve Tüm Dünyada Ruh Katan, Pozsuz ve Doğal Belgesel Düğün Fotoğrafçılığı
+            Gerçek anlar. Gerçek duygular. Pozsuz düğün hikâyeleri.
           </motion.p>
 
           <motion.div
@@ -91,7 +91,7 @@ export default function App() {
               href="#contact"
               className="px-8 py-3.5 border border-white/60 text-white backdrop-blur-xs font-semibold hover:bg-white hover:text-neutral-900 rounded-xs text-xs tracking-widest uppercase transition-all duration-350 transform hover:-translate-y-0.5"
             >
-              YOLUNDA KALALIM
+              TANIŞALIM
             </a>
           </motion.div>
 

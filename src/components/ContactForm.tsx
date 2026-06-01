@@ -80,7 +80,9 @@ export default function ContactForm() {
               Hikayenizi <span className="font-light italic text-accent-500">Konuşalım.</span>
             </h2>
             <p className="text-sm font-light text-neutral-600 leading-relaxed mb-12">
-              Düğününüzün heyecanını, hayallerinizi veya aklınızdaki her türlü deli soruyu benimle paylaşabilirsiniz. Ofisimiz Bursa Özlüce'de; gelin bir kahve eşliğinde planlarınızın üzerinden geçelim. Ya da dünyanın neresinde olursanız olun görüntülü konuşalım!
+              Düğününüzü, hayallerinizi veya aklınızdaki tüm soruları paylaşabilirsiniz.<br /><br />
+              Bursa'da bir kahve eşliğinde ya da dünyanın herhangi bir yerinden görüntülü görüşmeyle tanışabiliriz.<br /><br />
+              Önce sizi dinlemek isterim.
             </p>
 
             <div className="space-y-8 bg-accent-100/30 p-8 rounded-xs border border-accent-200/20" id="quick-contact-details">

@@ -58,7 +58,7 @@ export default function KindWords() {
         <div className="text-center mb-16">
           <span className="text-[10px] tracking-[0.3em] font-medium text-accent-500 block mb-3">SAMİMİ ANLATILAR</span>
           <h2 className="text-3xl md:text-5xl font-editorial font-light tracking-tight text-white">
-            Çiftlerimizden <span className="font-light italic text-accent-500">Mektuplar</span>
+            Çiftlerimizin <span className="font-light italic text-accent-500">Gözünden</span>
           </h2>
           <div className="w-12 h-[1px] bg-neutral-700 mx-auto mt-6" />
         </div>

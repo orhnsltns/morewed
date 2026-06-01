@@ -27,7 +27,7 @@ export default function Packages() {
     },
     {
       id: 'pkg2',
-      title: '02 / TAM GÜN AN EVRENİ',
+      title: '02 / TAM GÜN DÜĞÜN HİKÂYESİ',
       subtitle: 'Hazırlıklardan İlk Dansa Her Hücre',
       price: '34.000 ₺',
       duration: '10 SAAT ÇEKİM SÜRESİ',

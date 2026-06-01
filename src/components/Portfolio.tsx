@@ -100,7 +100,7 @@ export default function Portfolio() {
         <div className="text-center mb-16 md:mb-24">
           <span className="text-[10px] tracking-[0.3em] font-medium text-accent-500 block mb-3">SEÇİLMİŞ HİKAYELER</span>
           <h2 className="text-3xl md:text-5xl font-editorial font-light text-ink tracking-tight leading-tight">
-            Aşkın En Saf ve <span className="font-light italic text-accent-500">Doğal Hallerine</span> Tanık Olun.
+            Düğün günü nasıl hissettirdiyse, <span className="font-light italic text-accent-500">tam olarak öyle.</span>
           </h2>
           <div className="w-12 h-[1px] bg-accent-200/50 mx-auto mt-6" />
         </div>

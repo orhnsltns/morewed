@@ -12,16 +12,16 @@ export default function About() {
     {
       icon: <Compass className="w-6 h-6 stroke-[1.2] text-accent-500" />,
       title: 'POZSUZ & GERÇEKÇİ',
-      desc: 'İlişkinizin doğal dinamiğini bozmayan, yapay pozlar verdirmek yerine bizzat güldüğünüz, sarıldığınız ve kendiniz olduğunuz anları yakalarım.',
+      desc: 'İlişkinizin doğal dinamiğini bozmayan, yapay pozlar verdirmek yerine bizzat güldüğünüz, sarıldığınız ve kendiniz olduğunuz anları yakalarım. Gülümsediğiniz için değil, gerçekten mutlu olduğunuz için çekilen fotoğraflar.',
     },
     {
       icon: <Heart className="w-6 h-6 stroke-[1.2] text-accent-500" />,
-      title: 'RUH KATAN AYRINTILAR',
+      title: 'KÜÇÜK ANLAR, BÜYÜK HATIRALAR',
       desc: 'Doğru ışık açısı, rüzgarda dalgalanan tülünüz veya babanızın gözündeki o sessiz damla. Teknik mükemmellikle duyguyu harmanlayan sanatsal bir bakış.',
     },
     {
       icon: <MapPin className="w-6 h-6 stroke-[1.2] text-accent-500" />,
-      title: 'SINIRSIZ COĞRAFYA',
+      title: 'NEREDE OLURSA OLSUN',
       desc: 'Bursa, İstanbul ve Kapadokya başta olmak üzere; Türkiye’nin eşsiz kıyılarından İtalya, İskoçya ve dünyanın dilediğiniz her noktasına sizinle eşlik ederim.',
     },
   ];
@@ -57,13 +57,13 @@ export default function About() {
             className="lg:col-span-7 text-neutral-700 text-sm md:text-base leading-relaxed space-y-6 pt-2"
           >
             <p>
-              Düğün gününüz bir tiyatro sahnesi, sizler de birer tiyatro oyuncusu değilsiniz. Çoğu zaman çiftler, fotoğraf seanslarında bitmek bilmeyen poz verme sürelerinden, nasıl bakmaları gerektiğini söyleyen direktiflerden yorulurlar. Ben bu ritmi değiştirmek gerektiğine inanıyorum.
+              Düğün gününüz bir fotoğraf çekimi değildir. Sevdiğiniz insanla birlikte yaşayacağınız gerçek bir gündür. Bu yüzden sizi sürekli yönlendiren, ne yapmanız gerektiğini söyleyen veya her dakikayı pozlarla dolduran bir yaklaşım benim tarzım değil.
             </p>
             <p className="font-medium text-ink">
-              Bizim için düğün fotoğrafçılığı; anları tasarlamak değil, zaten var olan tüm güzelliği belgesel bir hassasiyet ve fine-art estetiği ile kaydetmektir.
+              Benim için düğün fotoğrafçılığı; olmayan anlar üretmek değil, zaten yaşananları fark edip kaydetmektir.
             </p>
             <p>
-              Hazırlık sırasındaki heyecanlı telaşınız, nikah masasına yürürken birbiriyle kenetlenen parmaklarınız veya tüm tören bittiğinde içten kıkırdamalarınız... Her detayı, tıpkı bizzat yaşandığı andaki gibi sıcak ve hakiki kılmak için analog filmin doğal ve yumuşak tonlarından, derin vizyonel kompozisyonlardan ilham alıyorum.
+              Hazırlık sırasındaki heyecan, annenizin gözlerindeki gurur, nikâh öncesindeki sessizlik, gün boyunca birbirinize attığınız küçük bakışlar... En değerli kareler çoğu zaman planlanmayanlardır. Bu yüzden daha az performans, daha çok samimiyet.
             </p>
           </motion.div>
         </div>
